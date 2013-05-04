@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block head_title %}403{% endblock %}
+{% block extra_style %}
+	<link rel="stylesheet" type="text/css" href="/static/css/all.css" />
+{% endblock %}
+
+{% block help %}{% endblock %}
+
+{% block main_body %}
+	<section class="content">
+		<div class="http-status">
+			<div class="modal-center error-403">
+				<h1>
+					Under Maintenance
+				</h1>
+				<p style="color: #333; text-shadow: none;">
+					Our bots are undergoing some maintenance.
+					<br />
+					<br />
+					Sorry for the inconvenience but we <br />have some new stuff coming. <br /><br />
+					Please check back with us in 24hrs.
+				</p>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+
+{% block chat_box %}{% endblock %}
